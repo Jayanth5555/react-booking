@@ -1,0 +1,103 @@
+.login {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #604e34;
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    position: relative;
+    
+  }
+  label{
+    align-content: flex-start;
+    margin-top: 10px;
+    padding: 10px;
+  }
+  .hotel{
+    color: goldenrod;
+    -webkit-text-fill-color: goldenrod;
+    position: absolute;
+    top: 20pox;
+    left:50px;
+    border-bottom: 3px solid silver;
+    border-top: 1px solid black;
+    border-radius: 20px;  
+    border-spacing: 30px;
+    background-color: rgb(106, 95, 48);
+  }
+  .hotel:hover{
+    -webkit-text-fill-color: gold;
+  }
+  
+  .lContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 18%;
+    padding: 30px;
+    background-color: darkgoldenrod;
+    /* background-image: ; */
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    text-align: center;
+    margin-bottom:20px;
+    border: 2px solid white;
+    
+  }
+  .lContainer:hover{
+    background-color: gold;
+  }
+  /* .logol{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 200px;
+    border: 3px dotted white;
+  } */
+
+  
+  .lInput{
+    height: 30px;
+    padding: 50px;
+  }
+  
+  .lButton {
+    border: none;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .lButton:disabled{
+    background-color: #0071c28c;
+    cursor: not-allowed;
+  }
+  .message{
+    color: white;
+    font-weight: bold;
+  }
+  .lContainer>h1{
+    text-align: center;
+    color: white;
+    width: 250px;
+    font-size: 50pxpx;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+  }
+  .shr{
+    color: white;
+  }
+  .sh1{
+    font-weight:bold;
+
+  }
+  
+ 
